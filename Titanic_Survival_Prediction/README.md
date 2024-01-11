@@ -24,5 +24,5 @@ Cabin: Cabin number where the passenger stayed (if available).
 
 Embarked: Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton).
 
-## Creating Python Enviromrnt by
+## Creating Python Enviroment by
 conda create -p env python=3.8 -y
