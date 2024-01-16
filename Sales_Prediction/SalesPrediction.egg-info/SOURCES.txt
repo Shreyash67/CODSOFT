@@ -1,0 +1,6 @@
+setup.py
+SalesPrediction.egg-info/PKG-INFO
+SalesPrediction.egg-info/SOURCES.txt
+SalesPrediction.egg-info/dependency_links.txt
+SalesPrediction.egg-info/requires.txt
+SalesPrediction.egg-info/top_level.txt
