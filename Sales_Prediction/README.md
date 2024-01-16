@@ -9,4 +9,4 @@ Newspaper: The amount of money spent on advertising in newspapers.
 Sales: The sales figures, which could be the outcome or result of the advertising expenditures on TV, Radio, and Newspaper.
 
 ### Virtual Environment
-conda create -p venv python=3.8 -y
+conda create -p env python==3.8 -y
