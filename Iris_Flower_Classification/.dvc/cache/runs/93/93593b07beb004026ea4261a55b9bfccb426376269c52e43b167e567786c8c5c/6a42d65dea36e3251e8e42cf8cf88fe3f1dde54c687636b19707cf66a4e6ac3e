@@ -1,0 +1,15 @@
+cmd: python src/IrisFlowerClassification/pipeline/model_evalution.py
+deps:
+- path: src/IrisFlowerClassification/components/data_ingestion.py
+  hash: md5
+  md5: 3023a9a621ef6a5f83fe7803b160f736
+  size: 813
+- path: src/IrisFlowerClassification/components/model_train.py
+  hash: md5
+  md5: 663b7885058bb5e6051b1a2bb9b268a1
+  size: 1985
+outs:
+- path: model.pkl
+  hash: md5
+  md5: 7201e9c26b771bbb210a7fdb912b45e6
+  size: 121578
