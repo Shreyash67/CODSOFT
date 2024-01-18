@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Iris_Flower_Classification/mlruns/0/fc8100f7abb449899c33b0987c059942/artifacts
+end_time: 1705591648139
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fc8100f7abb449899c33b0987c059942
+run_name: rumbling-cat-750
+run_uuid: fc8100f7abb449899c33b0987c059942
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1705591648046
+status: 3
+tags: []
+user_id: Dell
