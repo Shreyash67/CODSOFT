@@ -1,7 +1,0 @@
-README.md
-setup.py
-IrisFlowerClassification.egg-info/PKG-INFO
-IrisFlowerClassification.egg-info/SOURCES.txt
-IrisFlowerClassification.egg-info/dependency_links.txt
-IrisFlowerClassification.egg-info/requires.txt
-IrisFlowerClassification.egg-info/top_level.txt

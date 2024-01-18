@@ -1,9 +1,0 @@
-stages:
-  training:
-    cmd: python src/IrisFlowerClassification/pipeline/model_evalution.py
-    deps:
-      - src/IrisFlowerClassification/components/model_train.py
-      - src/IrisFlowerClassification/components/data_ingestion.py
-
-    outs:
-      - model.pkl
