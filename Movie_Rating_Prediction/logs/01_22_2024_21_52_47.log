@@ -1,0 +1,20 @@
+[2024-01-22 21:52:47,260] 25 root - INFO - Data is successfully transformed.
+[2024-01-22 21:52:47,260] 12 root - INFO - Splitting into x and y
+[2024-01-22 21:52:47,260] 22 root - INFO - Splitting the data into train and test
+
+[2024-01-22 21:52:54,205] 53 root - INFO - ------------ Model Evaluation Started ------------
+[2024-01-22 21:52:54,221] 59 root - INFO - Model: Linear Regression, MAE: 1.0551915630690487
+[2024-01-22 21:52:54,221] 59 root - INFO - Model: Lasso, MAE: 1.0609761195142335
+[2024-01-22 21:52:54,221] 59 root - INFO - Model: Ridge, MAE: 1.055191575878219
+[2024-01-22 21:52:54,235] 59 root - INFO - Model: ElasticNet, MAE: 1.0576936608352643
+[2024-01-22 21:52:54,266] 59 root - INFO - Model: Random Forest Regression, MAE: 0.9221323808160151
+[2024-01-22 21:52:54,281] 59 root - INFO - Model: Gradient Boosting Regression, MAE: 0.8812871009530516
+[2024-01-22 21:52:55,007] 59 root - INFO - Model: SVR, MAE: 1.0816147671644
+[2024-01-22 21:52:55,015] 59 root - INFO - Model: KNN Regression, MAE: 1.0088144329896904
+[2024-01-22 21:52:55,015] 59 root - INFO - Model: Decision Tree Regression, MAE: 1.2557560137457044
+[2024-01-22 21:52:55,027] 59 root - INFO - Model: AdaBoost Regression, MAE: 0.9867405105925176
+[2024-01-22 21:52:55,027] 60 root - INFO - ------------ Model Evaluation Completed ------------
+
+[2024-01-22 21:52:55,027] 67 root - INFO - Best Model: Gradient Boosting Regression, MAE: 0.8812871009530516
+[2024-01-22 21:52:55,027] 89 root - INFO - The best model is 'Gradient Boosting Regression' with MAE score: '0.8812871009530516'
+[2024-01-22 21:52:55,035] 94 root - INFO - The best model 'Gradient Boosting Regression' saved as 'model.pkl'
