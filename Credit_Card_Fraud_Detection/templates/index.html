@@ -1,0 +1,168 @@
+<!-- home.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Fraud Detection</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2c3e50;  /* Dark background color */
+            color: #ecf0f1;  /* Light text color */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        h1 {
+            color: #ecf0f1;  /* Light text color */
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #34495e;  /* Darker form background color */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #ecf0f1;  /* Light text color */
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #27ae60;  /* Dark green button color */
+            color: #ecf0f1;  /* Light text color */
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        h2 {
+            color: #27ae60;  /* Dark green result text color */
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+    <h1>Credit Card Fraud Detection</h1>
+    <form action="/predict" method="post">
+        <label for="Time">Time:</label>
+        <input type="text" name="Time" required>
+
+        <label for="V1">V1:</label>
+        <input type="text" name="V1" required>
+
+        <label for="V2">V2:</label>
+        <input type="text" name="V2" required>
+
+        <label for="V3">V3:</label>
+        <input type="text" name="V3" required>
+
+        <label for="V4">V4:</label>
+        <input type="text" name="V4" required>
+
+        <label for="V5">V5:</label>
+        <input type="text" name="V5" required>
+
+        <label for="V6">V6:</label>
+        <input type="text" name="V6" required>
+
+        <label for="V7">V7:</label>
+        <input type="text" name="V7" required>
+
+        <label for="V8">V8:</label>
+        <input type="text" name="V8" required>
+
+        <label for="V9">V9:</label>
+        <input type="text" name="V9" required>
+
+        <label for="V10">V10:</label>
+        <input type="text" name="V10" required>
+
+        <label for="V11">V11:</label>
+        <input type="text" name="V11" required>
+
+        <label for="V12">V12:</label>
+        <input type="text" name="V12" required>
+
+        <label for="V13">V13:</label>
+        <input type="text" name="V13" required>
+
+        <label for="V14">V14:</label>
+        <input type="text" name="V14" required>
+
+        <label for="V15">V15:</label>
+        <input type="text" name="V15" required>
+
+        <label for="V16">V16:</label>
+        <input type="text" name="V16" required>
+
+        <label for="V17">V17:</label>
+        <input type="text" name="V17" required>
+
+        <label for="V18">V18:</label>
+        <input type="text" name="V18" required>
+
+        <label for="V19">V19:</label>
+        <input type="text" name="V19" required>
+
+        <label for="V20">V20:</label>
+        <input type="text" name="V20" required>
+
+        <label for="V21">V21:</label>
+        <input type="text" name="V21" required>
+
+        <label for="V22">V22:</label>
+        <input type="text" name="V22" required>
+
+        <label for="V23">V23:</label>
+        <input type="text" name="V23" required>
+
+        <label for="V24">V24:</label>
+        <input type="text" name="V24" required>
+
+        <label for="V25">V25:</label>
+        <input type="text" name="V25" required>
+
+        <label for="V26">V26:</label>
+        <input type="text" name="V26" required>
+
+        <label for="V27">V27:</label>
+        <input type="text" name="V27" required>
+
+        <label for="V28">V28:</label>
+        <input type="text" name="V28" required>
+
+        <label for="Amount">Amount:</label>
+        <input type="text" name="Amount" required>
+
+        <button type="submit">Predict</button>
+    </form>
+    {% if prediction %}
+            <h2>{{ prediction }}</h2>
+    {% endif %}
+</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+[2024-01-25 21:19:36,047] 25 root - INFO - Splitting data into x and y
+[2024-01-25 21:19:36,059] 35 root - INFO - Splitting the data into train and test
+
+[2024-01-25 21:19:37,227] 55 root - INFO - ------------ Model Evaluation Started ------------
+[2024-01-25 21:19:37,239] 62 root - INFO - Model: Logistic Regression, Accuracy: 0.9256756756756757, F1 Score: 0.923076923076923
+[2024-01-25 21:19:37,264] 62 root - INFO - Model: Random Forest Classifier, Accuracy: 0.9391891891891891, F1 Score: 0.935251798561151
+[2024-01-25 21:19:37,264] 63 root - INFO - ------------ Model Evaluation Completed ------------
+
+[2024-01-25 21:19:37,264] 69 root - INFO - Best Model: Random Forest Classifier, Accuracy: 0.9391891891891891, F1 Score: 0.935251798561151
+[2024-01-25 21:19:37,265] 43 root - INFO - The best model is 'Random Forest Classifier' with Accuracy: '0.9391891891891891', F1 Score: '0.935251798561151'
+[2024-01-25 21:19:37,274] 48 root - INFO - The best model 'Random Forest Classifier' saved as 'model.pkl'
